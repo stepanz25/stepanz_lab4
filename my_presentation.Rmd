@@ -1,0 +1,79 @@
+---
+title: "MDS UBC"
+author: "Stepan Zaiatc"
+date: "2022/09/26"
+output:
+  xaringan::moon_reader:
+    self_contained: true
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      countIncrementalSlides: no
+  pdf_document: default
+subtitle: Block 1 Courses
+---
+
+DSCI 511
+
+
+
+
+Programming for Data Science
+
+Description of the Course:
+Pseudo-code. Program design and structure. Flow control. Iteration. Lists (arrays). Functions. File I/O. Classes, objects, methods, and libraries.
+
+---
+
+DSCI 523
+
+
+
+
+Programming for Data Manipulation
+
+Description of the Course:
+Program design and data manipulation using industry-standard software tools designed for statistical work. Organizing, filtering, sorting, grouping, reformatting, converting, and cleaning data to prepare it for further analysis.
+
+Examples of R code blocks are below:
+```{r R-code-example}
+name = readline(prompt="Your name goes in here: ")
+age =  readline(prompt="Your age goes in here: ")
+print(paste("My name is",name, "and I am",age ,"years old."))
+```
+---
+
+Another fun example of R code chunk is here:
+```{r}
+x <- 5
+y <- as.integer(x)
+
+if ((y%%2) == 0){print(paste("The number ",y," is Even"))
+  } else {
+  print(paste("The number ",y," is Odd"))
+  }
+```
+
+---
+
+DSCI 521
+
+
+
+
+Computing Platforms for Data Science
+
+Description of the Course:
+Introduction to software, shells, tools, and file systems for use in the Data Science program. Installation, configuration, and use of statistical and programming software including Integrated Development Environments (IDEs). Problem resolution skills.
+---
+
+DSCI 551
+
+
+
+
+
+Descriptive Statistics and Probability for Data Science
+
+Description of the Course:
+Descriptive statistics including measures of location and spread. Random variables, distributions, and parameters. Categorical variables. Uncertainty. Missing data.
